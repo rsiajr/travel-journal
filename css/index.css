@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 5rem;
+}
+
+a :hover{
+    background-color: black;
+}
+
+header{
+    background-color: slategray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 550;
+    padding: 1.5rem;
+    color: white;
+}
+
+.gallery{
+    position: absolute;
+    width: 100%;
+    font-family: 'Modak', cursive;
+}
+ 
+.city{
+    position: relative;
+}
+
+.city-name{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.city-photo{
+    width: 100%;
+}
+
+/* .toronto{
+    z-index: 4;
+}
+
+.Helsinki{
+    z-index: 3;
+}
+
+.Osaka{
+    z-index: 2;
+}
+
+.Lagos{
+    z-index: 2;
+} */
