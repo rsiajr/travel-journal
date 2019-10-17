@@ -10,7 +10,7 @@ a{
 }
 
 a :hover{
-    background-color: black;
+    foregro
 }
 
 header{
@@ -24,7 +24,7 @@ header{
 }
 
 .gallery{
-    position: absolute;
+    position: relative;
     width: 100%;
     font-family: 'Modak', cursive;
 }
@@ -40,7 +40,9 @@ header{
 }
 
 .city-photo{
+    display: block;
     width: 100%;
+    height: auto;
 }
 
 /* .toronto{
