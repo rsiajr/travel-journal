@@ -6,12 +6,12 @@
 a{
     text-decoration: none;
     color: white;
-    font-size: 5rem;
-    -webkit-transition: .8s ease;
+    font-size: 4rem;
 }
 
 a:hover {
     background-color: black;
+    transition: .7s ease;
     opacity: .5;
   }
 
@@ -36,9 +36,12 @@ header{
 }
 
 .city-name{
+    display: block;
     position: absolute;
-    top: 250px;
-    left: 38%;
+    font-size: 4rem;
+    color: darkblue;
+    top: 4em;
+    left: 40%;
 }
 
 .city-photo{
